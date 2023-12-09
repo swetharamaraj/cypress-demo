@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://acmeinc.success.test',
+    baseUrl: 'https://stagtest.success.app',
   },
   env :{
     local: 'https://acmeinc.success.test',
